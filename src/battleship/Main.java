@@ -1,3 +1,7 @@
+/**
+ * The Hotseat CLI Battleship game.
+ */
+
 package battleship;
 
 import java.awt.Point;

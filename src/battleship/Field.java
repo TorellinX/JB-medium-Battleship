@@ -143,7 +143,6 @@ public class Field {
     int ySize = horizontal ? type.size : 1;
     for (int row = x1; row <= x1 + xSize - 1; row++) {
       for (int column = y1; column <= y1 + ySize - 1; column++) {
-        System.out.println(row + " " + column);
         setCellToShip(row, column);
       }
     }
